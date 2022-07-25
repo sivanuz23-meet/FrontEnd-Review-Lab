@@ -1,4 +1,9 @@
-function changeBackgroundColor(color){
+function changeBackgroundColor(){
 	var bg = document.getElementsByTagName("body");
-	bg[0].style.background = color;
+	if (bg[0].style.background == "green"){
+		bg[0].style.background = "lightblue";
+	}
+	else{
+		bg[0].style.background = "green";
+	}
 }
