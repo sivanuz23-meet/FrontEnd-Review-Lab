@@ -6,27 +6,34 @@
 	<title>My Front-End Lab</title>
 	<style type="text/css">
 		 body {
-  			background-color: lightblue;
+  			background-color: lightcyan;
 		}
 		#link{
 			text-decoration: underline;
-			background-color: hotpink;
+			background-color: lightskyblue;
 		}
 		.heading{
 			text-decoration: underline;
+		}
+		.center{
+			text-align: center;
 		}
 
 	</style>
 </head>
 <body>
-	<h1 class = "heading" >CS Class</h1>
-	<p>Learning CS is fun:)</p>
-	<h2 class = "heading" >Computer Image</h2>
-	<img src="https://cdn.britannica.com/77/170477-050-1C747EE3/Laptop-computer.jpg" width="400" height="200">
-	<a id = "link" href="https://en.wikipedia.org/wiki/Computer">Computers</a>
-	
-	<button onclick="changeBackgroundColor(green)">Change BG Color</button>
-	<script src=”main.js”></script>
-	
+	<div class="center">
+		<h1 class = "heading" >CS Class</h1>
+		<br></br>
+		<p>Learning CS is fun:)</p>
+		<br></br>
+		<h2 class = "heading" >Computer Image</h2>
+		<br></br>
+		<img src="https://cdn.britannica.com/77/170477-050-1C747EE3/Laptop-computer.jpg" width="800" height="400">
+		<a id = "link" href="https://en.wikipedia.org/wiki/Computer">Computers</a>
+		<br></br>
+		<button onclick = 'changeBackgroundColor("green")'>Color Change</button>
+		<script src="main.js"></script>
+	</div>
 </body>
 </html>
